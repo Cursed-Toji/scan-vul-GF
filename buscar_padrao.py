@@ -4,6 +4,8 @@ import sys
 import subprocess
 from colorama import Fore, Style
 
+#testado no banco cn só pegou o SSTI e o SQLI verificar dps
+
 # Função para buscar padrões específicos nas URLs
 def buscar_padroes_arquivo(arquivo):
     # Padrões a serem buscados e suas cores correspondentes
